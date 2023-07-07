@@ -495,7 +495,7 @@ input :focus{
   width: 89.3%;
   height: 1055px;
   padding: 20px 20px 20px 20px ;
-  margin-left: 95px;
+  margin-left: 80px;
   margin-top: 10px;
   border-radius: 13px;
 }
@@ -1175,7 +1175,7 @@ input :focus{
   height: 650px;
   margin-top: 20px;
   width: 89.3%;
-  margin-left: 90px;
+  margin-left: 82px;
 
 }
 .giarequa .sanphamgiarequa{
@@ -1336,7 +1336,7 @@ margin-bottom: -20px;
   background-color: white;
   width: 89.3%;
   height: 300px;
-  margin-left: 90px;
+  margin-left: 82px;
   border-radius: 10px;
 
 }
@@ -1379,10 +1379,10 @@ margin-bottom: -20px;
 .KHUYENMAICHICOTRENONLINE{
   color: #303030;
    font-size: 25PX;
-   margin-left: 90px ;
+   margin-left: 82px;
 }
 .pickhuyenmai{
-  margin-left: 90px;
+  margin-left: 82px;
   border-radius: 8px;
   width: 89.3%;
 }
@@ -1390,7 +1390,7 @@ margin-bottom: -20px;
   background-color: white;
   width: 89.3%;
   height: 250px;
-  margin-left: 90px;
+  margin-left: 82px;
   margin-top: 30px;
   border-radius: 10px;
 }
@@ -2296,23 +2296,35 @@ margin-top: -23px;
   margin-left: 270px;
   margin-top: -28px;
 }
-/*quảng cá*/
+.slide-bar{
+  display: none;
+}
 
-.ad-container {
+.slide-bar.active{
+  display: block;
+}
+
+.slide-bar
+.banner_left{
+  left: calc(((100vw - 1200px)/2)-105px);
+  margin-left: 70px;
+}
+
+.slide-bar a{
   position: fixed;
-  top: 70%;
-  left: 96%;
-
-  
+  top: 195px;
+  width: 89px;
+  z-index: 999;
 }
 
-#qctrai{
-  margin-left: -1700%;
-  margin-top: -550%;
-
+.slide-bar a img{
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
-#qcphai{
-  margin-left: -48%;
-  margin-top: -550%;
 
+.slide-bar
+.banner_right{
+  right: calc(((100vw - 1200px)/2) - 105px);
+  margin-right: -26px;
 }
