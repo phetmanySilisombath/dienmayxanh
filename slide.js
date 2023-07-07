@@ -122,7 +122,6 @@ arrowIcon.forEach(icon => {
 
 
 
-
 const carouseltow = document.querySelector(".sanphamgiarequa");
 firstImg = carousel.querySelectorAll("img")[0];
 arrowIcon = document.querySelectorAll(".giarequa i");
@@ -136,4 +135,23 @@ arrowIcon.forEach(icon => {
     const speedFactor = 4; // Hệ số tốc độ
     carouseltow.scrollLeft += icon.id === "lefttow" ? -frittImgWidthtow * speedFactor : frittImgWidthtow * speedFactor;
   });
+});
+
+window.addEventListener("scroll", function() {
+  var adContainer = document.querySelector(".ad-container");
+  var containerRect = document.querySelector(".container").getBoundingClientRect();
+  var adContainerRect = adContainer.getBoundingClientRect();
+
+  var adTop = containerRect.top + adContainerRect.height / 2 + 1;
+  var adBottom = containerRect.bottom - adContainerRect.height / 1;
+
+  if (window.pageYOffset > adTop) {
+    adContainer.style.transform = "translate(-50%, -50%)";
+    adContainer.style.display = "block";
+  } else if (window.pageYOffset > adBottom) {
+    adContainer.style.display = "none";
+  } else {
+    adContainer.style.transform = "translate(-50%, " + (window.pageYOffset - adTop + window.innerHeight / 2) + "px)";
+    adContainer.style.display = "block";
+  }
 });

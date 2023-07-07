@@ -119,6 +119,7 @@ nav{
  list-style: none;
  display: flex;
  padding: 20px 3px 10px;
+ 
 }
 
 
@@ -1202,9 +1203,10 @@ input :focus{
   width: 18.5%;
   background-color: white;
   margin-top: 20px;
-  margin-left: 15px;
+  margin-left: 5px;
   border-radius: 6px;
   height: 400px;
+  margin-right: 5px;
 }
 .sanphamgiarequa h3{
   font-size: 15px;
@@ -1220,8 +1222,8 @@ input :focus{
 #picairinverter{
 width: 220px;  
 margin-left: -38px;
-margin-top: 100px;
-margin-bottom: -10px;
+margin-top: 55px;
+margin-bottom: -20px;
 }
 .airinverter{
   color: #222;
@@ -1238,7 +1240,7 @@ margin-bottom: -10px;
   width: 180px;  
   margin-left: -8px;
   margin-top: 50px;
-  margin-bottom: -81px;
+  margin-bottom: -91px;
   }
   .noicomdien{
     color: #222;
@@ -1253,7 +1255,7 @@ margin-bottom: -10px;
   #piclgsmarttv{
     width: 200px;  
     margin-left: -28px;
-    margin-top: 60px;
+    margin-top: 30px;
     margin-bottom: -60px;
     }
     .lgsmarttv{
@@ -1266,14 +1268,56 @@ margin-bottom: -10px;
       background-color:#f6bbbf ;
       border-radius: 3px;
     }
-    #picquatsacac{
-      width: 200px;  
+    #picmayepcham{
+      width: 190px;  
       margin-left: -28px;
-      margin-top: 10px;
-      margin-bottom: -86px;
+      margin-top: 20px;
+      margin-bottom: -100px;
       }
+      .mayepcham{
+        color: #222;
+        margin-left: -67px;
+        line-height: 25px;
+      }
+      .mayepcham span{
+        color: #e83a45;
+        background-color:#f6bbbf ;
+        border-radius: 3px;
+      }
+      #pictulanhaqua{
+        width: 200px;  
+        margin-left: -28px;
+        margin-top: 10px;
+        margin-bottom: -90px;
+        }
+        .tulanhaqua{
+          color: #222;
+          margin-left: -55px;
+          line-height: 25px;
+        }
+        .tulanhaqua span{
+          color: #e83a45;
+          background-color:#f6bbbf ;
+          border-radius: 3px;
+        }
+        #pictlcgoogle{
+          width: 200px;  
+          margin-left: -28px;
+          margin-top: 50px;
+          margin-bottom: -55px;
+          }
+          .tlcgoogle{
+            color: #222;
+            margin-left: -75px;
+            line-height: 25px;
+          }
+          .tlcgoogle span{
+            color: #e83a45;
+            background-color:#f6bbbf ;
+            border-radius: 3px;
+          }
 .xemtatca{
-  margin-top: 25px;
+  margin-top: 15px;
   font-size: 15px;
   color:#333;
   font-weight: lighter;
@@ -1286,7 +1330,7 @@ margin-bottom: -10px;
 }
 .xemtatcaa{
   text-align: center;
-  margin-left: 90px;
+  margin-left: 100px;
 }
 .danhmucnoibat{
   background-color: white;
@@ -1695,7 +1739,7 @@ margin-left: 25px;
               width: 190px;  
               margin-left: -28px;
               margin-top: 0px;
-              margin-bottom: -90px;
+              margin-bottom: -100px;
               }
               .quatkangaroo{
                 color: #222;
@@ -1933,7 +1977,7 @@ margin-left: 25px;
                                 width: 200px;  
                                 margin-left: -38px;
                                 margin-top: 20px;
-                                margin-bottom: -93px;
+                                margin-bottom: -103px;
                                 }
                                 .toshiba{
                                   color: #222;
@@ -1965,7 +2009,7 @@ margin-left: 25px;
                                     width: 190px;  
                                     margin-left: -28px;
                                     margin-top: 30px;
-                                    margin-bottom: -80px;
+                                    margin-bottom: -100px;
                                     }
                                     .noicomdientu{
                                       color: #222;
@@ -1981,7 +2025,7 @@ margin-left: 25px;
                                       width: 185px;  
                                       margin-left: -28px;
                                       margin-top: 10px;
-                                      margin-bottom: -105px;
+                                      margin-bottom: -100px;
                                       }
                                       .robothutbui{
                                         color: #222;
@@ -1998,7 +2042,7 @@ margin-left: 25px;
                                         width: 185px;  
                                         margin-left: -28px;
                                         margin-top: 10px;
-                                        margin-bottom: -90px;
+                                        margin-bottom: -100px;
                                         }
                                         .lgtulanh{
                                           color: #222;
@@ -2008,44 +2052,267 @@ margin-left: 25px;
                                         }
                                         .lgtulanh span{
                                           color: #e83a45;
-                                          background-color:#f6bbbf ;
+                                          background-color: #f6bbbf ;
                                           border-radius: 3px;
                                         }
           
           
-          
+                                        .xemthem{
+                                          margin-top: 20px;
+                                          font-size: 15px;
+                                          color:#333;
+                                          font-weight: lighter;
+                                          background-color: white;
+                                          width: 25%;
+                                          height: 40px;
+                                          border-radius: 3px;
+                                          margin-left: 480px;
+                                          padding: 10px;
+                                        }
+                                        .xemthemm{
+                                          text-align: center;
+                                          margin-left: 120px;
+                                        }
 
 
 
-                    .slide-bar{
-                      display: none;
-                    }
-                    
-                    .slide-bar.active{
-                      display: block;
-                    }
-                    
-                    .slide-bar
-                    .banner_left{
-                      left: calc(((100vw - 1200px)/2)-105px);
-                      margin-left: 1px;
-                    }
-                    
-                    .slide-bar a{
-                      position: fixed;
-                      top: 195px;
-                      width: 89px;
-                      z-index: 999;
-                    }
-                    
-                    .slide-bar a img{
-                      display: block;
-                      max-width: 100%;
-                      height: auto;
-                    }
-                    
-                    .slide-bar
-                    .banner_right{
-                      right: calc(((100vw - 1200px)/2) - 105px);
-                      margin-right: 15px;
-                    }
+.tuvanchonmua{
+  display: flex;
+}
+.tuvanchonmua1{
+  background-color: white;
+  width: 44%;
+  height: 210PX;
+  margin-left: 90PX;
+  font-size: 12px ;
+   border-radius: 10px;
+
+}
+.tuvanchonmua1 h1{
+  margin-top: 30px;
+  color: #222;
+  margin-left: 15px;
+}
+.pictuvanchonmua1{
+  display: flex;
+  margin-top: 20px;
+  margin-left: -25px;
+}
+.pictuvanchonmua1 img{
+  width: 170px;
+  height: 100px;
+  border-radius: 10px;
+
+}
+.tuvanchonmua2{
+  background-color: white;
+  width: 44%;
+  height: 210PX;
+  margin-left: 30PX;
+  font-size: 12px ;
+   border-radius: 10px;
+
+}
+
+.tuvanchonmua2 h1{
+  margin-top: 10px;
+  color: #222;
+  margin-left: 15px;
+}
+.pictuvanchonmua2{
+  display: flex;
+  margin-top: 20px;
+  margin-left: -25px;
+}
+.pictuvanchonmua2 img{
+  width: 270px;
+  height: 130px;
+}
+.timkiemnhieu H1{
+  color: #303030;
+  font-size: 23PX;
+  margin-left: 90PX;
+  margin-bottom: 15PX;
+}
+.timkiemnhieuhang1 ul{
+  display: inline-block;
+  color: #303030;
+  font-size: 14px;
+  margin-left: 60px;
+  font-weight: lighter;
+  margin-top: 15PX;
+}
+.timkiemnhieuhang1 p:hover{
+  color: blue;
+}
+.timkiemnhieuhang2 ul{
+  display: inline-block;
+  color: #303030;
+  font-size: 14px;
+  margin-left: 60px;
+  font-weight: lighter;
+  margin-top: 15PX;
+}
+.timkiemnhieuhang2 p:hover{
+  color: blue;
+}
+.timkiemnhieuhang3 ul{
+  display: inline-block;
+  color: #303030;
+  font-size: 14px;
+  margin-left: 60px;
+  font-weight: lighter;
+  margin-top: 15PX;
+}
+.timkiemnhieuhang3 p:hover{
+  color: blue;
+}
+.fttrang{
+  background-color: white;
+  width: 100%;
+  height: 300px;
+}
+.fttrang{
+  color: #303030;
+  font-size: 14px;
+
+}
+.fttrangdong1{
+  margin-top: -35px;
+  line-height: 35px;
+
+}
+.fttrangdong1 p{
+  margin-left: 50px;
+  color: #000;
+  line-height: 30px;
+}
+.fttrangdong2{
+  margin-top: -172px;
+  line-height: 35px;
+}
+.fttrangdong2 p{
+  margin-left: 300px;
+  line-height: 30px;
+  color: #000;
+
+}
+.fttrangdong3{
+  margin-top: -185px;
+  line-height: 35px;
+}
+.fttrangdong3 p {
+  margin-left: 590px;
+  line-height: 30px;
+  color: #000;
+
+}
+.fttrangdong1 p:hover{
+  color: blue;
+}
+.fttrangdong2 p:hover{
+  color: blue;
+}
+.ftfb{
+  margin-top: -182px ;
+}
+.fb{
+  margin-left: 915px;
+margin-top: -21px;
+}
+.picfb{
+  margin-left: 890px;
+  margin-top: 50px;
+}
+.ftyt{
+  margin-top: -5px;
+}
+.yt{
+  margin-left: 1035px;
+margin-top: -30px;
+}
+.picyt{
+  margin-left: 990px;
+  margin-top: -25px;
+}
+.ftzalo{
+  margin-top: -14px;
+}
+.zalo{
+  margin-left: 1155px;
+margin-top: -23px;
+}
+.piczalo{
+  margin-left: 1130px;
+  margin-top: -30px;
+}
+.ftlogo1 {
+  margin-top: 18PX;
+  margin-left: 886PX;
+}
+.ftlogo2 {
+  margin-top: -32PX;
+  margin-left: 974PX;
+}
+.ftlogo3 {
+  margin-top: -27PX;
+  margin-left: 1104PX;
+}
+.Websidecungtapdoan{
+  font-weight: lighter;
+  margin-left: 930px;
+  margin-top: 30px;
+}
+.Websidecungtapdoanlogohang1{
+  margin-top: 12px;
+}
+.Websidecungtapdoanlogo1{
+}
+.Websidecungtapdoanlogo2{
+  margin-left: 93px;
+  margin-top: -27px;
+}
+.Websidecungtapdoanlogo3{
+  margin-left: 179px;
+  margin-top: -45px;
+}
+.Websidecungtapdoanlogo4{
+  margin-left: 268px;
+  margin-top: -45px;
+}
+
+.Websidecungtapdoanlogo5{
+  margin-top: 10px;
+}
+.Websidecungtapdoanlogo6{
+  margin-left: 93px;
+  margin-top: -29px;
+}
+.Websidecungtapdoanlogo7{
+  margin-left: 185px;
+  margin-top: -28px;
+}
+.Websidecungtapdoanlogo8{
+  margin-left: 270px;
+  margin-top: -28px;
+}
+/*quảng cá*/
+
+.ad-container {
+  position: fixed;
+  top: 70%;
+  left: 96%;
+
+  
+}
+
+#qctrai{
+  margin-left: -1720%;
+  margin-top: -550%;
+
+}
+#qcphai{
+  margin-left: -28%;
+  margin-top: -550%;
+
+}
