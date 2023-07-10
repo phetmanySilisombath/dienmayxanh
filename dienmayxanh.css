@@ -1,3 +1,34 @@
+
+
+@media only screen and (max-width: 480px){
+  .Search input{
+    width: 10%;
+   
+   
+  }
+
+  .Search ul{
+    width: 100;
+
+  }
+
+  .logol img{
+   width: 30px;
+  }
+
+
+  .Search button{
+    font-size: 30%;
+  }
+}
+
+
+
+
+
+
+
+
 *{
   margin: 0%;
                     }
@@ -2327,4 +2358,172 @@ margin-top: -23px;
 .banner_right{
   right: calc(((100vw - 1200px)/2) - 105px);
   margin-right: -26px;
+}
+
+
+/*ti vi*/
+
+
+.tivigiare{
+  background-color: rgb(255, 179, 0);
+  margin-left: 5%;
+   width: 90%;
+   margin-top: -1.5%;
+   height: 45rem;
+ }
+ 
+  .anhgiare{
+   display: flex;
+   overflow: hidden;
+   height: 50rem;
+   width: 97%;
+   margin-left: 1%;
+   cursor: pointer;
+   scroll-behavior: smooth;
+ 
+ 
+ }
+ 
+ .anhgiare ul{
+  margin-left: -2%;
+ }
+
+ 
+ .tivigiare li{
+   display: flex;
+   background-color: #fff;
+   width: 100%;
+   margin-top: 10%;
+ 
+  
+ }
+ 
+ .giabepgiare {
+  font-size: 70%;
+   margin-left: 7%;
+   color:#d0021c;
+   margin-top: 15px;
+ 
+ }
+ .giabepgiare span{
+   font-size: 16px;
+   margin-left: 5px;
+   border-radius: 3px;
+   background-color: #f6bbbf;
+ }
+ 
+ 
+ .giarequaree i{
+   color: red;
+  
+ }
+ 
+ .giarequaree{
+   margin-left: 7%;
+   margin-top: 6%;
+   font-size: 50%;
+   color: #000;
+ }
+ 
+ 
+ #bepPgiare{
+  color: #000;
+   margin-top: 6%;
+   margin-left: 7%;
+   font-size: 16px;
+ }
+ 
+ 
+ .dauxaogiare{
+  font-size: 60%;
+   color:rgb(255, 111, 0) ;
+   margin-left: 7%;
+   margin-top: 13px;
+ }
+ 
+ .dauxaogiare span{
+   margin-left: 10px;
+   color: #999;
+ }
+ .Pgiare{
+   background: linear-gradient(to right,#faab08,#d42611);
+   color: #fff;
+   font-size: 10px;
+   width: 60%;
+   height: 1.5rem;
+   border-radius: 13px;
+   margin-left: 6%;
+   margin-top: -110%;
+ }
+ 
+ .giarequagaP img{
+   margin-top: 5%;
+   margin-left: -10%;
+ }
+ 
+ 
+ .giarequagaP span{
+   margin-top: -110%;
+   margin-left: 10%;
+ }
+ 
+ 
+ #anhhanggiare img{
+  margin-top: -190%;
+  margin-left: 7%;
+  height: 10%;
+  border-radius: 15px;
+ }
+ 
+  .anhbayngaygiare #lefttivi{
+   background-color: #999;
+   color: #000;
+   margin-top: 12%;
+   height: 35px;
+   font-size: 30px;
+   text-align: center;
+   cursor: pointer;
+   position: absolute;
+   
+ 
+ }
+ 
+ .anhbayngaygiare #righttivi{
+   margin-left: 87.6%;
+   background-color: #999;
+   color: #000;
+   margin-top: -40%;
+   height: 35px;
+   font-size: 35px;
+   text-align: center;
+   cursor: pointer;
+   position: absolute;
+ 
+ }
+ 
+#anhcanhhang{
+  width: 250px;
+  height: 500px;
+}
+
+#anhhanggiare img{
+  margin-left: 13%;
+ 
+}
+
+.container{
+  margin-top: -400%;
+}
+
+.ad-container {
+  position: fixed;
+  top: 70%;
+  left: 96%;
+  
+}
+
+#qctrai{
+  margin-left: -1730%;
+  margin-top: -500%;
+ 
 }
