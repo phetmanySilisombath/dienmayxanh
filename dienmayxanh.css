@@ -1,25 +1,96 @@
 
 
 @media only screen and (max-width: 480px){
-  .Search input{
-    width: 10%;
-   
-   
-  }
 
-  .Search ul{
-    width: 100;
 
+  .slideee {
+    width: 390%;
   }
+.navv{
+ width: 390%;
+ 
+}
+.guatrang{
+  width: 1390px;
+}
+ .timkiem{
+  margin-top: 2%;
+  display: flex;
+  margin-left: 30%;
+
+ }
+.timkiem input{
+  margin-left: 200%;
+  width: 60%;
+}
+.timkiem button{
+  margin-left: 150%;
+}
+
+.Search a{
+  margin-top: -5%;
+  display: flex;
+  font-size: 30%;
+}
+
+.mayxanh a {
+  display: flex;
+  width: 300%;
+  font-size: 15px;
+  margin-top: 10%;
+  margin-left: 100px;
+}
+
+.menutren a{
+  display: flex;
+  
+}
+.menu{
+  margin-top: -5%;
+
+}
+
+
+.mayxanh i{
+  display: none;
+
+}
+
 
   .logol img{
-   width: 30px;
+   width: 80px;
   }
 
-
-  .Search button{
-    font-size: 30%;
+  .button1 i{
+    margin-top: 50%;
   }
+
+  .pic{
+    width: 390%;
+    margin-top: -2.5%;
+  }
+
+  .slideshow-container{
+    display: flex;
+    left: 70%;
+    width: 1000%;
+   
+  }
+.button {
+  display: flex;
+  margin-left: 25%;
+}
+  .next2 {
+    margin-left: 345%;
+  }
+
+  .box4 {
+    width: 350%;
+  }
+ .box4 ul{
+  margin-left: 10%;
+ }
+
 }
 
 
@@ -27,6 +98,7 @@
 
 
 
+/*lap top */
 
 
 *{
@@ -59,6 +131,8 @@ header {
 
 
 /* Next & previous buttons */
+
+
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -1209,6 +1283,12 @@ input :focus{
   margin-left: 82px;
 
 }
+
+
+.sanphamgiarequa {
+  width: 98%;
+  margin-left: 1%;
+}
 .giarequa .sanphamgiarequa{
   position: relative;
   overflow: hidden;
@@ -1217,10 +1297,7 @@ input :focus{
 
 }
 
-#righttow {
-  margin-top: 300px;
-  margin-left: 1130px;
-}
+
 
 
 
@@ -2526,4 +2603,37 @@ margin-top: -23px;
   margin-left: -1730%;
   margin-top: -500%;
  
+}
+
+
+.nhahangmayxanh{
+ 
+  background-color: #4a90e2;
+  height: 650px;
+  margin-top: 20px;
+  width: 89.3%;
+  margin-left: 82px;
+}
+
+.nhahangmayxanh i{
+  display: flex;
+  margin-top: 20%;
+  font-size: 100%;
+}
+
+#lefttow{
+  display: flex;
+  width: 30px;
+  margin-top: -20%;
+  background-color: #ffffffb7;
+  margin-left: -1%;
+  color: #000;
+}
+
+#righttow{
+  background-color: #ffffffb7;
+  color: #000;
+  width: 30px; 
+  margin-top: -150%;
+  margin-left: 98.8%;
 }
