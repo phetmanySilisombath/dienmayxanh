@@ -8,23 +8,25 @@
   }
 .navv{
  width: 390%;
+ margin-top: -10%;
  
 }
 .guatrang{
-  width: 1390px;
+  width: 1530px;
+  margin-left: -40px;
 }
  .timkiem{
-  margin-top: 2%;
+  margin-top: -80px;
   display: flex;
-  margin-left: 30%;
+  margin-left: 40%;
 
  }
 .timkiem input{
   margin-left: 200%;
-  width: 60%;
+  width: 40%;
 }
 .timkiem button{
-  margin-left: 150%;
+  margin-left: 90%;
 }
 
 .Search a{
@@ -41,19 +43,57 @@
   margin-left: 100px;
 }
 
-.menutren a{
+.menutren {
   display: flex;
-  
+  margin-left: 20%;
+  margin-top: 3%;
+  font-size: 30px;
+}
+.menutren .khuyenmai{
+  margin-top: -8%;
+  margin-left: -15%;
+}
+
+.menutren .vaobep{
+  margin-top: -8%;
+   margin-left: 90%;
+
+}
+
+
+.menutren .giohang{
+  margin-top: -8%;
+  height: 10%;
+  margin-left: -19%;
+
+}
+
+.menutren .taikhoan {
+  margin-left: -15%;
+  height: 10%;
+  margin-top: -8%;
+}
+
+.menutren .tuvan{
+  margin-left: -16%;
+  margin-top: -8%;
 }
 .menu{
-  margin-top: -5%;
+  margin-top: -2%;
 
 }
 
 
 .mayxanh i{
-  display: none;
+  display: flex;
+  margin-left: 3%;
+  margin-top: 2%;
 
+}
+
+.mayxanh a{
+  width: 80%;
+  margin-left: 10%;
 }
 
 
@@ -90,6 +130,104 @@
  .box4 ul{
   margin-left: 10%;
  }
+
+ #phantram1 img{
+  width: 15%;
+  margin-top: -15px;
+ }
+
+ #phantram2 img{
+  width: 15%;
+  margin-top: -15px;
+ }
+ #phantram3 img{
+  width: 30%;
+  margin-top: -13px;
+ }
+#phantram4 img{
+width: 63%;
+  margin-top: -13px;
+ }
+ #phantram5 img{
+width: 35%;
+  margin-top: -15px;
+ }#phantram6 img{
+  width: 15%;
+  margin-top: -15px;
+ }#phantram7 img{
+  width: 15%;
+  margin-top: -15px;
+ }#phantram8 img{
+  width: 15%;
+  margin-top: -15px;
+ }#phantram9 img{
+  width: 15%;
+  margin-top: -15px;
+ }
+ #phantram10 img{
+  width: 15%;
+  margin-top: -15px;
+ }
+ #phantram11 img{
+  width: 86%;
+  margin-top: -13px;
+ }
+ #phantram12 img{
+  width: 86%;
+  
+ }
+ #phantram13 img{
+  width: 15%;
+  margin-top: -15px;
+ }
+ #phantram14 img{
+  width: 15%;
+  margin-top: -12px;
+ }
+ #phantram15 img{
+  width: 30%;
+  margin-top: -15px;
+ }
+
+ .anhbayngaygiare{
+  display: flex;
+  
+ 
+ }
+ .anhbayngaygiare #lefttivi{
+  display: flex;
+  top : 358%;
+
+  margin-left: -3%;
+ }
+ 
+.anhbayngaygiare #righttivi{
+  display: flex;
+  top : 385%;
+  left: 278%;
+ }
+ 
+.dichvutienich .dichvudongtien {
+  margin-left: 360px;
+}
+.dichvutienich .muathegame{
+  margin-left: 690px;
+}
+.dichvutienich .dichvutantam{
+  margin-left: 1020px;
+
+}
+ .danhmuchang1 ul{
+  margin-left: 15px;
+}
+.danhmuchang2 ul{
+  margin-left: 15px;
+}
+.danhmucnoibat .danhmucc h1 a{
+  margin-left: 190px;
+}
+
+
 
 }
 
@@ -2552,31 +2690,31 @@ margin-top: -23px;
   border-radius: 15px;
  }
  
-  .anhbayngaygiare #lefttivi{
-   background-color: #999;
-   color: #000;
-   margin-top: 12%;
-   height: 35px;
-   font-size: 30px;
-   text-align: center;
-   cursor: pointer;
-   position: absolute;
-   
- 
- }
- 
- .anhbayngaygiare #righttivi{
-   margin-left: 87.6%;
-   background-color: #999;
-   color: #000;
-   margin-top: -40%;
-   height: 35px;
-   font-size: 35px;
-   text-align: center;
-   cursor: pointer;
-   position: absolute;
- 
- }
+ .anhbayngaygiare #lefttivi{
+  background-color: white;
+  color: gray;
+  margin-top: 19%;
+  height: 35px;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  
+
+}
+
+.anhbayngaygiare #righttivi{
+  margin-left: 87.6%;
+  background-color: white;
+  color: gray;
+  margin-top: -40.5%;
+  height: 35px;
+  font-size: 35px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+
+}
  
 #anhcanhhang{
   width: 250px;
